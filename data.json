@@ -68,7 +68,7 @@
     },
     {
       "title": "Rock, Paper, Scissors Game",
-      "description": "A responsive UI/UX prototype for a music shop.",
+      "description": "A Java ServerSocket-based Rock, Paper, Scissors game enabling real-time client-server gameplay.",
       "image": "assets/rps.png",
       "tags": ["Java"],
       "link": "https://github.com/louiseeo/oop-2026/tree/main/midterm_lab"
