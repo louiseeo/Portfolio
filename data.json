@@ -57,7 +57,7 @@
       "description": "A simple e-commerce application built with HTML, CSS, and JavaScript",
       "image": "assets/store.png",
       "tags": ["HTML", "CSS", "JavaScript"],
-      "link": "http://127.0.0.1:5502/activity17/index.html"
+      "link": "https://github.com/louiseeo/webdev1-2026/tree/main/activity17"
     },
     {
       "title": "Ardor Music Shop",
@@ -85,7 +85,7 @@
       "description": "A responsive landing page built using HTML and CSS to practice modern web layout and design.",
       "image": "assets/buildweb.png",
       "tags": ["HTML", "CSS"],
-      "link": "http://127.0.0.1:5502/activity11/index.html"
+      "link": "https://github.com/louiseeo/webdev1-2026/tree/main/activity11"
     }
   ],
 
