@@ -282,9 +282,6 @@ em {
   background: #a259ff;
 }
 
-/* Photo card — replaces the old code-editor visual. Same card
-   treatment (rounded, shadowed, slightly tilted) applied to an
-   actual portrait instead. */
 .photo-card {
   border-radius: 14px;
   overflow: hidden;
@@ -432,9 +429,6 @@ main section h2 {
   box-shadow: 0 16px 32px -18px rgba(20, 23, 28, 0.18);
   border-color: #d8d4ca;
 }
-
-/* No real screenshot yet: a quiet placeholder panel with a code
-   glyph, rather than a heavy dark block, so the whole grid stays light. */
 .project-thumb {
   height: 160px;
   background: var(--surface);
@@ -681,11 +675,7 @@ main section h2 {
   font-size: 0.92rem;
 }
 
-/* ===== Contact =====
-   .contact-inner is centered as a column (max-width + margin auto),
-   but text-align is NOT set on it — that would cascade onto the "07"
-   section-index too. Instead, only the heading/intro/actions/form
-   center themselves individually. */
+/* ===== Contact ===== */
 .contact-inner {
   max-width: 640px;
   margin: 0 auto;
@@ -712,7 +702,6 @@ main section h2 {
   margin-bottom: 48px;
 }
 
-/* Non-functional contact form (submission wired up later) */
 .contact-form {
   max-width: 520px;
   margin: 0 auto;

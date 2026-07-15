@@ -210,7 +210,6 @@ function renderTimeline(containerId, entries, { orgKey }) {
 }
 
 // ---- Certifications ----
-// ---- Certifications ----
 function renderCertifications(certifications) {
     const container = document.getElementById('certifications-container');
     if (!container || !certifications) return;
