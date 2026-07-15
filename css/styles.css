@@ -96,7 +96,7 @@ em {
 .btn-primary {
   background: var(--ink);
   color: var(--bg);
-  border-color: var(--ink);
+  border-color: transparent;
 }
 .btn-primary:hover {
   background: #2b323d;
