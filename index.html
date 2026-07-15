@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <header class="navbar">
+        <nav class="container nav-inner">
+            <a href="#" class="logo">&lt;LM/&gt;</a>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certs</a></li>
+                <li><a href="#beyond">Beyond</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a class="btn btn-primary" href="#contact">Get in touch</a>
+                <button class="hamburger" aria-label="Menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#beyond">Life Beyond Coding</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home / Introduction -->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow" data-field="tagline">// 1st-year IT student, learning by building</span>
+                    <h1 class="hero-name" data-field="name">Your Name</h1>
+                    <p class="hero-tagline-text">Learning <em>passionate</em> in coding.</p>
+                    <p data-field="role-line">I am an aspiring <span data-field="role">Frontend Developer</span>.</p>
+
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#projects">View projects ➝</a>
+                        <a class="btn" href="#contact">Say hello</a>
+                    </div>
+
+                    <div class="hero-stack">
+                        <span><i class="tech-badge tech-badge--html" aria-hidden="true">5</i>HTML5</span>
+                        <span><i class="tech-badge tech-badge--css" aria-hidden="true">3</i>CSS3</span>
+                        <span><i class="tech-badge tech-badge--java" aria-hidden="true">J</i>Java</span>
+                        <span><i class="tech-badge tech-badge--js" aria-hidden="true">JS</i>JavaScript</span>
+                        <span><i class="tech-badge tech-badge--design" aria-hidden="true">UX</i>UI/UX Design</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="photo-card">
+                        <img data-field="photo" src="assets/profile.jpg" alt="My Profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="about" id="about">
+            <div class="container about-grid">
+                <span class="section-index">01</span>
+                <h2>About Me</h2>
+                <div class="about-inner">
+                    <div class="about-content" id="about-content">
+                        <!-- Paragraphs injected by js/main.js from data.json:about -->
+                        <p>Loading…</p>
+                    </div>
+                    <aside class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-label">📍Based in</span>
+                            <span class="highlight-value">La Union, Philippines</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-label">🎓Studying</span>
+                            <span class="highlight-value">BS Information Technology</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-label">💻Focus</span>
+                            <span class="highlight-value">Frontend Web Development</span>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills (JSON-driven) -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <span class="section-index">02</span>
+                <h2>Skills</h2>
+                <div class="skill-groups" id="skills-container">
+                    <!-- Skill groups + level bars injected by js/main.js from data.json:skills -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects (JSON-driven, min. 3) -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <span class="section-index">03</span>
+                <h2>Projects</h2>
+                <div class="project-grid" id="projects-container">
+                    <!-- Project cards injected by js/main.js from data.json:projects -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Education (JSON-driven, separate from Experience) -->
+        <section class="education" id="education">
+            <div class="container">
+                <span class="section-index">04</span>
+                <h2>Education</h2>
+                <div class="timeline" id="education-container">
+                    <!-- Timeline items injected by js/main.js from data.json:education -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications (JSON-driven) -->
+        <section class="certifications" id="certifications">
+            <div class="container">
+                <span class="section-index">05</span>
+                <h2>Certifications</h2>
+                <div class="cert-grid" id="certifications-container">
+                    <!-- Certificate cards injected by js/main.js from data.json:certifications -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Life Beyond Coding (JSON-driven) -->
+        <section class="beyond" id="beyond">
+            <div class="container">
+                <span class="section-index">06</span>
+                <h2>Life Beyond Coding</h2>
+                <p class="beyond-intro">A few things I spend time on when I'm away from the keyboard.</p>
+                <div class="beyond-grid" id="beyond-container">
+                    <!-- Interest cards injected by js/main.js from data.json:beyondCoding -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <div class="container contact-inner">
+                <span class="section-index">07</span>
+                <h2>Let's build something.</h2>
+                <p>Open to internships, freelance projects, and junior frontend
+                    roles. Reach out — I reply fast.</p>
+                <div class="contact-actions">
+                    <a class="btn btn-primary" data-field="email-link" href="mailto:you@example.com">Email me ➝</a>
+                    <a class="btn" data-field="github-link" href="#">GitHub</a>
+                    <a class="btn" data-field="facebook-link" href="#">Facebook</a>
+                </div>
+
+                <!-- Non-functional per project brief: submission wiring comes later -->
+                <form class="contact-form" onsubmit="return false;">
+                    <div class="form-row">
+                        <label for="cf-name">Name</label>
+                        <input type="text" id="cf-name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="form-row">
+                        <label for="cf-email">Email</label>
+                        <input type="email" id="cf-email" name="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="cf-message">Message</label>
+                        <textarea id="cf-message" name="message" placeholder="What are you reaching out about?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send message ➝</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <p>&copy; <span data-field="year">2026</span> <span data-field="name">Your Name</span>. Built with HTML, CSS &amp; JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

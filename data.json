@@ -1,0 +1,145 @@
+{
+  "profile": {
+    "name": "Louise Nicole N. Madriaga",
+    "role": "Future Frontend Developer",
+    "tagline": "1st-year IT student, learning by building",
+    "photo": "assets/profile.jpg",
+    "email": "louisenicole.madriaga@lorma.edu",
+    "github": "https://github.com/louiseeo",
+    "facebook": "https://www.facebook.com/louisenicole.ninoblamadriaga"
+  },
+
+  "about": {
+    "paragraphs": [
+      "I am an Information Technology student from Lorma Colleges with a growing passion for web development and UI/UX design.",
+      "I am currently learning the three pillars of frontend development which are HTML, CSS, and JavaScript. I am looking forward to possible internships in the field that can significantly improve my beginner skills."
+    ]
+  },
+
+  "skills": [
+    {
+      "category": "Markup & Styling",
+      "items": [
+        { "name": "HTML5", "level": 70 },
+        { "name": "CSS3", "level": 65 },
+        { "name": "Flexbox", "level": 60 },
+        { "name": "Grid", "level": 50 },
+        { "name": "Responsive Design", "level": 55 }
+      ]
+    },
+    {
+      "category": "Scripting",
+      "items": [
+        { "name": "JavaScript", "level": 40 },
+        { "name": "Java", "level": 45 }
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        { "name": "Figma", "level": 50 },
+        { "name": "Git", "level": 35 },
+        { "name": "VS Code", "level": 75 }
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "UnderCoven",
+      "description": "A terminal-based multiplayer guess the imposter game.",
+      "image": "assets/undercoven.jpg",
+      "tags": ["Java"],
+      "link": "https://github.com/louiseeo/compro2/tree/main/finals"
+    },
+    {
+      "title": "Mini Store",
+      "description": "A simple e-commerce application built with HTML, CSS, and JavaScript",
+      "image": "assets/store.png",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "link": "http://127.0.0.1:5502/activity17/index.html"
+    },
+    {
+      "title": "Ardor Music Shop",
+      "description": "A responsive UI/UX prototype for a music shop.",
+      "image": "assets/ardor.png",
+      "tags": ["Figma", "UI/UX Design"],
+      "link": "https://tinyurl.com/ardor-music-shop"
+    },
+    {
+      "title": "Rock, Paper, Scissors Game",
+      "description": "A responsive UI/UX prototype for a music shop.",
+      "image": "assets/rps.png",
+      "tags": ["Java"],
+      "link": "https://github.com/louiseeo/oop-2026/tree/main/midterm_lab"
+    },
+    {
+      "title": "Menu Enterprise Systems",
+      "description": "A collection of Java applications demonstrating data structures through grocery, movie registration, array, and quiz management systems.",
+      "image": "assets/java.jpg",
+      "tags": ["Java"],
+      "link": "https://github.com/louiseeo/Data-Structures/tree/main/finals/Final_Poject"
+    },
+    {
+      "title": "BuildWeb",
+      "description": "A responsive landing page built using HTML and CSS to practice modern web layout and design.",
+      "image": "assets/buildweb.png",
+      "tags": ["HTML", "CSS"],
+      "link": "http://127.0.0.1:5502/activity11/index.html"
+    }
+  ],
+
+  "education": [
+    {
+      "title": "BS Information Technology",
+      "school": "Lorma Colleges",
+      "period": "2025 — Present",
+      "description": "1st-year IT student focusing on frontend web development fundamentals: HTML, CSS, and JavaScript."
+    },
+    {
+      "title": "Senior High School, STEM",
+      "school": "Aringay National High School",
+      "period": "2023 — 2025",
+      "description": " The Science, Technology, Engineering, Mathematics Strand nurtured me how to apply math, science, engineering, and technology to solve real-world problems, fostering critical thinking and collaboration skills."
+    },
+    {
+      "title": "Junior High School, STE",
+      "school": "Aringay National High School",
+      "period": "2019 — 2023",
+      "description": "The Science, Technology and Engineering (STE) Program- is a special program which shall lay the foundation for a career and/or support to a career for learners with interest and aptitude in Science."
+    },
+    {
+      "title": "Elementary Education",
+      "school": "Dulao Integrated School",
+      "period": "2013 — 2019",
+      "description": ""
+    }
+  ],
+
+  "certifications": [
+    {
+      "title": "Vibe Coding: OpenXAI Foundations Online Workshop",
+      "issuer": "START DOST",
+      "date": "2025",
+      "image": "assets/certificate.jpg"
+    }
+  ],
+
+  "beyondCoding": [
+    {
+      "title": "🎸 Playing the Guitar",
+      "description": "Playing the guitar helps me unwind while improving my creativity, patience, and discipline.",
+      "image": "assets/guitar.jpg"
+    },
+    {
+      "title": "🤝 Volunteering",
+      "description": "I enjoy giving back to the community through volunteer work, where I can support others and develop teamwork and leadership skills.",
+      "image": "assets/volunteer.jpg"
+    },
+    {
+      "title": "⛪ Going to Church",
+      "description": "Going to church keeps me grounded, strengthens my faith, and reminds me of the importance of gratitude, integrity, and service to others.",
+      "image": "assets/church.jpg"
+    }
+  ]
+}
