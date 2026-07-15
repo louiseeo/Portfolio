@@ -2,7 +2,7 @@
 
 A responsive, JSON-driven personal portfolio built for **Web Development 1**. Content for every repeatable section — Skills, Projects, Education, Certifications, and Life Beyond Coding — lives in `data.json` and is rendered onto the page by `js/main.js`, so updating the site never means touching the HTML.
 
-**Live site:** https://louiseeo.github.io/Portfolio/
+**Live site:** https://louiseeo.github.io/portfolio/
 
 ## Sections
 
